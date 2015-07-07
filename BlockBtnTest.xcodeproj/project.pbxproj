@@ -15,6 +15,9 @@
 		29A5EB051B450B0F00B88342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29A5EB041B450B0F00B88342 /* Images.xcassets */; };
 		29A5EB081B450B0F00B88342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A5EB061B450B0F00B88342 /* LaunchScreen.xib */; };
 		29A5EB141B450B0F00B88342 /* BlockBtnTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A5EB131B450B0F00B88342 /* BlockBtnTestTests.m */; };
+		29A5EB1F1B450BA700B88342 /* blockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A5EB1E1B450BA700B88342 /* blockButton.m */; };
+		29A5EB221B4510B900B88342 /* ButtonBlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A5EB211B4510B900B88342 /* ButtonBlockTest.m */; };
+		29A5EB251B45114B00B88342 /* ButtonDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A5EB241B45114B00B88342 /* ButtonDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		29A5EB0D1B450B0F00B88342 /* BlockBtnTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockBtnTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A5EB121B450B0F00B88342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29A5EB131B450B0F00B88342 /* BlockBtnTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockBtnTestTests.m; sourceTree = "<group>"; };
+		29A5EB1D1B450BA700B88342 /* blockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockButton.h; sourceTree = "<group>"; };
+		29A5EB1E1B450BA700B88342 /* blockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockButton.m; sourceTree = "<group>"; };
+		29A5EB201B4510B900B88342 /* ButtonBlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonBlockTest.h; sourceTree = "<group>"; };
+		29A5EB211B4510B900B88342 /* ButtonBlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonBlockTest.m; sourceTree = "<group>"; };
+		29A5EB231B45114B00B88342 /* ButtonDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDelegate.h; sourceTree = "<group>"; };
+		29A5EB241B45114B00B88342 /* ButtonDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,12 @@
 				29A5EAF91B450B0F00B88342 /* AppDelegate.m */,
 				29A5EAFE1B450B0F00B88342 /* ViewController.h */,
 				29A5EAFF1B450B0F00B88342 /* ViewController.m */,
+				29A5EB1D1B450BA700B88342 /* blockButton.h */,
+				29A5EB1E1B450BA700B88342 /* blockButton.m */,
+				29A5EB201B4510B900B88342 /* ButtonBlockTest.h */,
+				29A5EB211B4510B900B88342 /* ButtonBlockTest.m */,
+				29A5EB231B45114B00B88342 /* ButtonDelegate.h */,
+				29A5EB241B45114B00B88342 /* ButtonDelegate.m */,
 				29A5EB011B450B0F00B88342 /* Main.storyboard */,
 				29A5EB041B450B0F00B88342 /* Images.xcassets */,
 				29A5EB061B450B0F00B88342 /* LaunchScreen.xib */,
@@ -222,10 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A5EB1F1B450BA700B88342 /* blockButton.m in Sources */,
 				29A5EAFA1B450B0F00B88342 /* AppDelegate.m in Sources */,
 				29A5EAFD1B450B0F00B88342 /* BlockBtnTest.xcdatamodeld in Sources */,
+				29A5EB251B45114B00B88342 /* ButtonDelegate.m in Sources */,
 				29A5EB001B450B0F00B88342 /* ViewController.m in Sources */,
 				29A5EAF71B450B0E00B88342 /* main.m in Sources */,
+				29A5EB221B4510B900B88342 /* ButtonBlockTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +438,7 @@
 				29A5EB191B450B0F00B88342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29A5EB1A1B450B0F00B88342 /* Build configuration list for PBXNativeTarget "BlockBtnTestTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +447,7 @@
 				29A5EB1C1B450B0F00B88342 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
